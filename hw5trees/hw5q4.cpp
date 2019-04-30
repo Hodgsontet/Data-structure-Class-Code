@@ -138,9 +138,9 @@ void BST<Item>::transplant(btNode<Item>*& u, btNode<Item>*& v)
 	}
 	else
 	{
-		{
+		
 		u.shiftUp();
 		u.setRight(v);
-	}
+	
 	}
 }
